@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set dark mode background and text colors */
+body {
+    background-color: #0e3a53;
+    color: #fff;
+    font-family: 'Sora', sans-serif;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+svg.grian {
+    position: absolute;
+    z-index: -999;
+    top: -600px;
+}
+/* Header styles */
+div.head {
+    
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+padding-top: 30px;
+}
+div#wrap2{
+    padding-top: 25px;
+    width: 100%;
+    position: relative;
+}
+
+svg.lg{
+    position: relative;
+    align-self: center;
+}
+
+div.fakehead {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 20px;
+    line-height: 30px;
+    opacity: 0.7;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+/* Navigation styles */
+nav ul {
+    border-bottom-left-radius: 6px;
+    list-style-type: none;
+    border-bottom-right-radius: 6px;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffffb0;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Main content sections */
+section {
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Blog post styles */
+.blog-post {
+    border: 2px solid #ffffffa6;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition-duration: 200ms;
+}
+.blog-post:hover {
+    border: 2px solid #fff;
+    background-color: rgba(245, 245, 245, 0.137);
+}
+
+
+/* Add styles for sponsors, members, and donate sections as needed */
+
+/* Media query for responsive design (adjust as needed) */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+.table {
+    height: 60px;
+    padding-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 96vw;
+}
+
+.cell {
+    width: 24vw;
+    box-sizing: border-box;
+    padding: 10px;
+    border-left: 2px solid #fff;
+}
+
+.firstcell{
+    border-left: none;
+}
+
+div.cardcell{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+a.cardfooter{
+    opacity: 0.7;
+}
+
+svg.grian2 {
+    position: absolute;
+    z-index: -999;
+    bottom: -600px;
+    right: -120px;
+}
